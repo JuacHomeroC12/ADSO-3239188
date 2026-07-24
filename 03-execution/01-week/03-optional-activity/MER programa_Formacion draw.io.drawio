@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Modelo ER Sena" id="0">
+    <mxGraphModel dx="2390" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="persona" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Persona" vertex="1">
+          <mxGeometry height="50" width="120" x="500" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aprendiz" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Aprendiz" vertex="1">
+          <mxGeometry height="50" width="120" x="290" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="instructor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Instructor" vertex="1">
+          <mxGeometry height="50" width="120" x="780" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="prog_formacion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Programa_formación" vertex="1">
+          <mxGeometry height="50" width="150" x="-50" y="371" as="geometry" />
+        </mxCell>
+        <mxCell id="ficha" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ficha" vertex="1">
+          <mxGeometry height="50" width="120" x="290" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="asig_inst" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Asignacion_Instructor" vertex="1">
+          <mxGeometry height="50" width="180" x="755" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_es1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="es" vertex="1">
+          <mxGeometry height="50" width="80" x="460" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_es2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="es" vertex="1">
+          <mxGeometry height="50" width="80" x="620" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_tiene1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Tiene" vertex="1">
+          <mxGeometry height="50" width="70" x="140" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_tiene2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Tiene" vertex="1">
+          <mxGeometry height="50" width="80" x="310" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_asig_f" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Asignar_ficha" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_asig_i" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Asignar_instructor" vertex="1">
+          <mxGeometry height="60" width="140" x="770" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_cedula" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;cedula&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_nombres" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nombres" vertex="1">
+          <mxGeometry height="40" width="80" x="470" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_apellidos" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="apellidos" vertex="1">
+          <mxGeometry height="40" width="80" x="560" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_correo" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="correo" vertex="1">
+          <mxGeometry height="40" width="80" x="650" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_telefono" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="telefono" vertex="1">
+          <mxGeometry height="40" width="80" x="740" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_estado" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="estado" vertex="1">
+          <mxGeometry height="40" width="80" x="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_area" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="area_conocimiento" vertex="1">
+          <mxGeometry height="40" width="130" x="1010" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_cod_p" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;codigo_programa&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="-90" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_nom_p" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nombre_programa" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_nivel" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="nivel" vertex="1">
+          <mxGeometry height="40" width="80" x="-170" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_num_f" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;numero_ficha&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="230" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_f_inicio" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="fecha_inicio" vertex="1">
+          <mxGeometry height="40" width="90" x="340" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_f_fin" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="fecha_fin" vertex="1">
+          <mxGeometry height="40" width="80" x="440" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_id_asig" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;id_Asignacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="790" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_comp" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="competencia" vertex="1">
+          <mxGeometry height="40" width="100" x="960" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_int_h" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="intensidad_Horaria" vertex="1">
+          <mxGeometry height="40" width="120" x="1010" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" source="persona" target="rel_es1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="rel_es1" style="edgeStyle=orthoEdgeStyle;html=1;" target="aprendiz" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="persona" target="rel_es2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="rel_es2" style="edgeStyle=orthoEdgeStyle;html=1;" target="instructor" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" source="prog_formacion" style="edgeStyle=orthoEdgeStyle;html=1;" target="rel_tiene1" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" source="rel_tiene1" style="edgeStyle=orthoEdgeStyle;html=1;" target="ficha" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" edge="1" parent="1" source="ficha" style="edgeStyle=orthoEdgeStyle;html=1;" target="rel_tiene2" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="rel_tiene2" style="edgeStyle=orthoEdgeStyle;html=1;" target="aprendiz" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" edge="1" parent="1" source="ficha" style="edgeStyle=orthoEdgeStyle;html=1;" target="rel_asig_f" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" edge="1" parent="1" source="rel_asig_f" style="edgeStyle=orthoEdgeStyle;html=1;" target="asig_inst" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" edge="1" parent="1" source="instructor" style="edgeStyle=orthoEdgeStyle;html=1;" target="rel_asig_i" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="rel_asig_i" style="edgeStyle=orthoEdgeStyle;html=1;" target="asig_inst" value="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="persona" target="attr_cedula">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="persona" target="attr_nombres">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="persona" target="attr_apellidos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="persona" target="attr_correo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" edge="1" parent="1" source="persona" target="attr_telefono">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" source="aprendiz" target="attr_estado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" source="instructor" target="attr_area">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" edge="1" parent="1" source="prog_formacion" target="attr_cod_p">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" edge="1" parent="1" source="prog_formacion" target="attr_nom_p">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" edge="1" parent="1" source="prog_formacion" target="attr_nivel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" edge="1" parent="1" source="ficha" target="attr_num_f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" edge="1" parent="1" source="ficha" target="attr_f_inicio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a13" edge="1" parent="1" source="ficha" target="attr_f_fin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a14" edge="1" parent="1" source="asig_inst" target="attr_id_asig">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a15" edge="1" parent="1" source="asig_inst" target="attr_comp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16" edge="1" parent="1" source="asig_inst" target="attr_int_h">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
